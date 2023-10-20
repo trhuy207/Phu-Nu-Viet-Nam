@@ -24,15 +24,15 @@
             <span>E</span>
         
         <span style="margin-right: 20px;"></span>
-        <span id="letter">M</span>
-        <span>Y</span>
+        <span id="letter">S</span>
+        <span>O</span>
         
         <span style="margin-right:4pt;"></span>
         <br class="mobile-break">
 
         <span id="letter">
             <a href="" id="pp_letter" class="typewrite" data-period="2000"
-                data-type='[ "FLOWER", "SUNSHINE", "LOVE","QUEEN" ,"SWEET","INSPIRATION","JEWEL" ]'>
+                data-type='[ "PRETTY", "BEAUTIFUL", "CUTE" ]'>
                 <script>
 
                     var TxtType = function (el, toRotate, period) {
@@ -109,13 +109,13 @@
             // set up text to print, each item in array is new line
             var aText = new Array(
                 "20.10.2023 Ngày Phụ Nữ Việt Nam",
-                "Chúc cho bà, mẹ, chị em phụ nữ ",
+                "Chúc cho các bạn nữ ở đây",
                 "Luôn xinh đẹp, mạnh khoẻ và hạnh phúc",
-                "Chúc cho những người con gái",
+                "Chúc cho những người con gái này",
                 "Luôn được yêu thương, che chở ",
                 "Tìm được người mình yêu và cũng yêu thương mình <3"
             );
-            var iSpeed = 100; // time delay of print out
+            var iSpeed = 80; // time delay of print out
             var iIndex = 0; // start printing array at this posision
             var iArrLength = aText[0].length; // the length of the text array
             var iScrollAt = 20; // start scrolling up at this many lines
@@ -138,7 +138,7 @@
                     iIndex++;
                     if (iIndex != aText.length) {
                         iArrLength = aText[iIndex].length;
-                        setTimeout("typewriter()", 500);
+                        setTimeout("typewriter()", 100);
                     }
                 } else {
                     setTimeout("typewriter()", iSpeed);
